@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body {
+    width: 300px;
+    background: #1a1410;
+    color: #f5e8d8;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    padding: 16px;
+    margin: 0;
+  }
+  h3 {
+    color: #e89040;
+    margin: 0 0 14px;
+    font-size: 16px;
+    text-align: center;
+  }
+  button {
+    width: 100%;
+    padding: 12px;
+    background: #e89040;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  button:hover { background: #c87020; }
+  button.secondary {
+    background: #2a221a;
+    border: 1px solid #3a2e20;
+  }
+  button.secondary:hover { background: #3a2e20; }
+  .info {
+    font-size: 11px;
+    color: #a89880;
+    margin-top: 12px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .status {
+    font-size: 11px;
+    color: #e89040;
+    text-align: center;
+    margin-top: 8px;
+    min-height: 14px;
+  }
+</style>
+</head>
+<body>
+  <h3>🎵 AhmedAudioPlayer</h3>
+
+  <button id="openPlayer">▶  Open Player</button>
+  <button id="playCurrent" class="secondary">🎵  Play Current Tab</button>
+  <button id="playLink" class="secondary">🔗  Play Copied Link</button>
+
+  <div class="status" id="status"></div>
+
+  <div class="info">
+    أو كليك يمين على أي رابط صوت<br>
+    → Open in AhmedAudioPlayer
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

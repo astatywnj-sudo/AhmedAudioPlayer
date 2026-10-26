@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\ahmed-player]
+@="URL:AhmedAudioPlayer Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\ahmed-player\shell]
+
+[HKEY_CLASSES_ROOT\ahmed-player\shell\open]
+
+[HKEY_CLASSES_ROOT\ahmed-player\shell\open\command]
+@="\"C:\\Users\\Laptop World\\AhmedAudioPlayer\\dist\\AhmedAudioPlayer.exe\" \"%1\""
